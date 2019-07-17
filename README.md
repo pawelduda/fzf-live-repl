@@ -4,6 +4,8 @@ This hacky one-liner turns your [fzf](https://github.com/junegunn/fzf) into a li
 see it for yourself. Please note that I will be adding more examples as I come up with them. You are also welcome to
 contribute them yourself by creating an issue or a pull request.
 
+[Featured in my blog post](https://paweldu.dev/posts/fzf-live-repl/)
+
 ## How?
 By abusing the `--preview` flag of `fzf`. It allows an arbitrary command to be executed as the query changes. The `{q}`
 is then being substituted by your typed query. After exiting `fzf` by pressing `enter`, the `--print-query` flag ensures that the typed
