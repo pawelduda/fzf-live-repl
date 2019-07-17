@@ -13,7 +13,11 @@ query will be printed to stdout.
 
 ## WARNING!
 Always be careful what you set the `--preview` flag to! **Imagine setting `rm -rf` and then typing `*` as the query
-string!**. I take no responsibility if you break anything! **ALWAYS KNOW WHAT YOU'RE TYPING/PASTING.**
+string!**. I take no responsibility if you break anything! 
+
+**ONLY USE THIS FOR COMMANDS WHICH ARE READ-ONLY!**
+
+**ALWAYS KNOW WHAT YOU'RE TYPING/PASTING!** 
 
 ## Examples
 
