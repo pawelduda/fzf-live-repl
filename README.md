@@ -43,3 +43,8 @@ $ echo '' | fzf --print-query --preview 'ruby -e {q}'
 ```bash
 $ echo '' | fzf --preview 'man {q}'
 ```
+
+### Execute a Python script
+```bash
+$ echo '' | fzf --print-query --preview 'python -c {q}'
+```
