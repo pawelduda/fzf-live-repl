@@ -41,5 +41,5 @@ $ echo '' | fzf --print-query --preview 'ruby -e {q}'
 
 ### Instantly browse manpages and find the relevant flag as you type the command
 ```bash
-$ #TODO
+$ echo '' | fzf --preview 'man {q}'
 ```
