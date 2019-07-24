@@ -39,7 +39,7 @@ $ echo '' | fzf --print-query --preview 'ruby -e {q}'
 ```
 ![fzf-ruby](gifs/fzf_ruby.gif?raw=True)
 
-### Instantly browse manpages and find the relevant flag as you type the command
+### Instantly browse manpages (and find the relevant flag as you type the command - TODO)
 ```bash
 $ echo '' | fzf --preview 'man {q}'
 ```
