@@ -5,7 +5,8 @@ see it for yourself. Please note that I will be adding more examples as I come u
 contribute them yourself by creating an issue or a pull request.
 
 [Featured in my blog post](https://paweldu.dev/posts/fzf-live-repl/)
-[See also: fzf-launch, open any file directly from command line with a command of your choice](https://paweldu.dev/posts/fzf-launch/)
+
+[See also: fzf-launch - open any file directly from command line with a command of your choice](https://paweldu.dev/posts/fzf-launch/)
 
 ## How?
 By abusing the `--preview` flag of `fzf`. It allows an arbitrary command to be executed as the query changes. The `{q}`
